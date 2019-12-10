@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.third.api:kxl-third-app-api:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/third/api/kxl-third-app-api/1.0.1-SNAPSHOT/kxl-third-app-api-1.0.1-20190918.094901-83.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/third/api/kxl-third-app-api/1.0.1-SNAPSHOT/kxl-third-app-api-1.0.1-20190918.094901-83-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/third/api/kxl-third-app-api/1.0.1-SNAPSHOT/kxl-third-app-api-1.0.1-20190918.094901-83-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

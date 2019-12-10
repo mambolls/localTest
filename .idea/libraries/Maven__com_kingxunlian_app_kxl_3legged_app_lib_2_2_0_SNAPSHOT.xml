@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.app:kxl-3legged-app-lib:2.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/app/kxl-3legged-app-lib/2.2.0-SNAPSHOT/kxl-3legged-app-lib-2.2.0-20190910.071224-33.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/app/kxl-3legged-app-lib/2.2.0-SNAPSHOT/kxl-3legged-app-lib-2.2.0-20190910.071224-33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/app/kxl-3legged-app-lib/2.2.0-SNAPSHOT/kxl-3legged-app-lib-2.2.0-20190910.071224-33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

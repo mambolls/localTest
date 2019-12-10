@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.alert:alert-client:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/alert/alert-client/1.1.0-SNAPSHOT/alert-client-1.1.0-20180705.062651-7.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/alert/alert-client/1.1.0-SNAPSHOT/alert-client-1.1.0-20180705.062651-7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/alert/alert-client/1.1.0-SNAPSHOT/alert-client-1.1.0-20180705.062651-7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

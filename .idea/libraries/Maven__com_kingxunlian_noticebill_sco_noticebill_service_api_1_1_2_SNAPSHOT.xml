@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.noticebill:sco-noticebill-service-api:1.1.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/noticebill/sco-noticebill-service-api/1.1.2-SNAPSHOT/sco-noticebill-service-api-1.1.2-20180613.082533-19.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/noticebill/sco-noticebill-service-api/1.1.2-SNAPSHOT/sco-noticebill-service-api-1.1.2-20180613.082533-19-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/noticebill/sco-noticebill-service-api/1.1.2-SNAPSHOT/sco-noticebill-service-api-1.1.2-20180613.082533-19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

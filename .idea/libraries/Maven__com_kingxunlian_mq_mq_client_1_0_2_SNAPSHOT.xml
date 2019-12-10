@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.mq:mq-client:1.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/mq/mq-client/1.0.2-SNAPSHOT/mq-client-1.0.2-20171129.085315-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/mq/mq-client/1.0.2-SNAPSHOT/mq-client-1.0.2-20171129.085315-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/mq/mq-client/1.0.2-SNAPSHOT/mq-client-1.0.2-20171129.085315-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

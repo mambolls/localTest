@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.heaven:heaven-client-spring:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/heaven/heaven-client-spring/1.0.0-SNAPSHOT/heaven-client-spring-1.0.0-20181119.020225-21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/heaven/heaven-client-spring/1.0.0-SNAPSHOT/heaven-client-spring-1.0.0-20181119.020225-21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/heaven/heaven-client-spring/1.0.0-SNAPSHOT/heaven-client-spring-1.0.0-20181119.020225-21-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

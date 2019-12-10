@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.kingxunlian.common:kxl-api-base:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/common/kxl-api-base/1.1.0-SNAPSHOT/kxl-api-base-1.1.0-20191129.100724-25.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/common/kxl-api-base/1.1.0-SNAPSHOT/kxl-api-base-1.1.0-20191129.100724-25-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/kingxunlian/common/kxl-api-base/1.1.0-SNAPSHOT/kxl-api-base-1.1.0-20191129.100724-25-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
