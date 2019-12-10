@@ -16,10 +16,6 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <mybatisplus.version>2.1.4</mybatisplus.version>
-        <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
-        <alert.version>1.1.0-SNAPSHOT</alert.version>
-        <kxl-third-app-api.version>1.0.1-SNAPSHOT</kxl-third-app-api.version>
     </properties>
 
     <dependencies>
@@ -50,69 +46,6 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.31</version>
-        </dependency>
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-        </dependency>
-
-        <!-- 迅联第两条腿公共依赖 -->
-        <dependency>
-            <groupId>com.kingxunlian.sdk</groupId>
-            <artifactId>kxl-2legged-sdk</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <!-- 迅联第三方包公共依赖 -->
-        <dependency>
-            <groupId>com.kingxunlian.app</groupId>
-            <artifactId>kxl-3legged-app-lib</artifactId>
-            <version>2.2.0-SNAPSHOT</version>
-        </dependency>
-        <!-- 迅联配置中心 -->
-        <dependency>
-            <groupId>com.kingxunlian.heaven</groupId>
-            <artifactId>heaven-client-spring</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-        </dependency>
-        <!-- 迅联api base -->
-        <dependency>
-            <groupId>com.kingxunlian.common</groupId>
-            <artifactId>kxl-api-base</artifactId>
-            <version>1.1.0-SNAPSHOT</version>
-        </dependency>
-        <!-- 迅联Starter -->
-        <dependency>
-            <groupId>com.kingxunlian</groupId>
-            <artifactId>kxl-springstart</artifactId>
-            <version>2.0.0-SNAPSHOT</version>
-        </dependency>
-        <!-- 平台告警 -->
-        <dependency>
-            <groupId>com.kingxunlian.alert</groupId>
-            <artifactId>alert-client</artifactId>
-            <version>${alert.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.kingxunlian.third.api</groupId>
-            <artifactId>kxl-third-app-api</artifactId>
-            <version>${kxl-third-app-api.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <!-- 热启动 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
         <!--   springcloud相关     -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

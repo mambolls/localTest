@@ -1,5 +1,6 @@
 package com.example.mybatisplus;
 
+import com.kingxunlian.heaven.annotation.EnableConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
