@@ -1,0 +1,136 @@
+09:33:18.194 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c177f9e: startup date [Wed Dec 11 09:33:18 CST 2019]; root of context hierarchy 
+09:33:18.663 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+09:33:18.673 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final 
+09:33:18.712 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3353bcd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+09:33:19.351 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+09:33:19.487 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+09:33:20.241 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+09:33:20.242 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+09:33:20.407 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+09:33:20.408 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+09:33:20.815 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true 
+09:33:21.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+09:33:21.338 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200 
+09:33:21.341 [main] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration 
+09:33:21.344 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1576028001344 with initial instances count: 3 
+09:33:22.238 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://172.20.16.183:7979/ 
+09:33:23.544 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=application-config, profiles=[test], label=master, version=5e6ffb885a5453f9626bad96403862f071e413d5, state=null 
+09:33:23.545 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource [name='configClient'], MapPropertySource [name='https://github.com/mambolls/config.git/application-config-test.yml']]] 
+09:33:23.554 [main] INFO  c.e.mybatisplus.CreateCodeByConfig - No active profile set, falling back to default profiles: default 
+09:33:23.558 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@77ccded4: startup date [Wed Dec 11 09:33:23 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2c177f9e 
+09:33:24.248 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.mybatisplus]' package. Please check your configuration. 
+09:33:24.252 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml] 
+09:33:24.804 [main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=b95b0095-dfd7-3f7f-a54b-d75478c1ac25 
+09:33:24.918 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+09:33:25.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a71b38d0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+09:33:25.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$d947df11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+09:33:25.361 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3353bcd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+09:33:25.436 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e2718b3: startup date [Wed Dec 11 09:33:25 CST 2019]; parent: org.springframework.web.context.support.GenericWebApplicationContext@77ccded4 
+09:33:25.461 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+09:33:26.947 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+09:33:26.947 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+09:33:26.962 [main] WARN  c.n.c.s.URLConfigurationSource - No URLs will be polled as dynamic configuration sources. 
+09:33:26.962 [main] INFO  c.n.c.s.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. 
+09:33:27.249 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@77ccded4: startup date [Wed Dec 11 09:33:23 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2c177f9e 
+09:33:27.428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/client/test],methods=[GET]}" onto public java.lang.String com.example.mybatisplus.controller.ClientTestController.test() 
+09:33:27.430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/client/getUser]}" onto public com.kingxunlian.common.XLBaseResponse<java.lang.String> com.example.mybatisplus.controller.ClientTestController.getUSer() 
+09:33:27.431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/output/user/getUsers],methods=[POST]}" onto public abstract java.lang.String com.example.mybatisplus.feign.ClientTestFeign.getUser() 
+09:33:27.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest) 
+09:33:27.436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) 
+09:33:27.497 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+09:33:27.497 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+09:33:27.561 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler] 
+09:33:27.905 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource 
+09:33:28.187 [main] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} inited 
+09:33:29.522 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke() 
+09:33:29.524 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String) 
+09:33:29.524 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.524 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke() 
+09:33:29.525 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus() 
+09:33:29.526 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String) 
+09:33:29.526 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>) 
+09:33:29.527 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset() 
+09:33:29.527 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.528 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.529 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.530 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.531 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.534 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException 
+09:33:29.534 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.536 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String) 
+09:33:29.536 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.538 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String) 
+09:33:29.539 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>) 
+09:33:29.539 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.541 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String) 
+09:33:29.541 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.542 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.543 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal) 
+09:33:29.543 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke() 
+09:33:29.545 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke() 
+09:33:29.545 [main] INFO  o.s.b.a.e.m.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke() 
+09:33:29.942 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+09:33:29.952 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+09:33:30.666 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0 
+09:33:30.708 [main] INFO  c.e.mybatisplus.CreateCodeByConfig - Started CreateCodeByConfig in 13.404 seconds (JVM running for 15.681) 
+09:33:31.143 [Thread-6] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@77ccded4: startup date [Wed Dec 11 09:33:23 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2c177f9e 
+09:33:31.154 [Thread-6] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING 
+09:33:31.436 [Thread-6] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application client with eureka with status DOWN 
+09:33:31.441 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1 
+09:33:31.443 [Thread-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson 
+09:33:31.443 [Thread-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson 
+09:33:31.443 [Thread-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml 
+09:33:31.444 [Thread-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml 
+09:33:31.545 [Thread-6] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration 
+09:33:31.560 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true 
+09:33:31.561 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server 
+09:33:31.569 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200 
+09:33:31.570 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30 
+09:33:31.574 [Thread-6] INFO  c.n.d.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4 
+09:33:31.577 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1576028011577 with initial instances count: 3 
+09:33:31.620 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ... 
+09:33:31.621 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ... 
+09:33:31.628 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CLIENT/172.20.16.183:-1 - deregister  status: 404 
+09:33:31.639 [Thread-6] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient 
+09:33:31.642 [Thread-6] INFO  o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 0 
+09:33:31.648 [Thread-6] INFO  c.a.druid.pool.DruidDataSource - {dataSource-1} closed 
+09:33:31.653 [Thread-6] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5e2718b3: startup date [Wed Dec 11 09:33:25 CST 2019]; parent: org.springframework.web.context.support.GenericWebApplicationContext@77ccded4 
+09:33:31.657 [Thread-6] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception thrown from ApplicationListener handling ContextClosedEvent 
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:283)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
