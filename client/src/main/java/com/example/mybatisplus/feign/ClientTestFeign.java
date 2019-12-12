@@ -17,6 +17,14 @@ import java.lang.reflect.Method;
 @RequestMapping("/output/user")
 public interface ClientTestFeign {
 
+    /**
+     * @MethodName getUser
+     * @Author lilinsong
+     * @Description  TODO
+     * @Param []
+     * @return java.lang.String
+     * @Date 2019/12/12 16:21
+     **/
     @RequestMapping(value = "/getUsers",method = RequestMethod.POST)
     public String getUser();
 }

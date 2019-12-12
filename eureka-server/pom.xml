@@ -47,7 +47,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
+        <!--   eruka服务相关     -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>

@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.example.mybatisplus.client.entity.User;
 import com.example.mybatisplus.client.service.UserService;
 import com.example.mybatisplus.feign.ClientTestFeign;
+import com.example.mybatisplus.service.AsyncTestService;
 import com.kingxunlian.common.XLBaseResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -63,6 +64,15 @@ public class ClientTestController {
         Wrapper<User> wrapper = new EntityWrapper<>();
         List<User> users = this.service.selectList(wrapper);
         return XLBaseResponse.newInstance(users);
+    }
+
+    @Autowired
+    private AsyncTestService asyncTestService;
+
+    @GetMapping("testAsync")
+    public XLBaseResponse<String> testAsync(){
+        this.asyncTestService.forTest();
+        return XLBaseResponse.newInstance("访问成功！");
     }
 
 }

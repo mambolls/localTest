@@ -42,10 +42,17 @@ public class UserController {
     private UserService service;
 
 
+    /**
+     * @MethodName getUsers
+     * @Author lilinsong
+     * @Description  TODO
+     * @Param []
+     * @return java.lang.String
+     * @Date 2019/12/12 16:21
+     **/
     @RequestMapping("/getUsers")
     public String getUsers() {
         Wrapper<User> wrapper = new EntityWrapper<>();
-
         List<User> list = this.service.selectList(wrapper);
         Logger.info("获取成功！");
         String jsonString = JSONObject.toJSONString(list);

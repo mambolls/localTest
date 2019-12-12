@@ -26,7 +26,7 @@ public class AsyncTestService {
      **/
     @Async("AsyncTest")
     public void forTest() {
-        for (int i = 0; i <= 100 ; i++){
+        for (int i = 0; i <= 7 ; i++){
             try {
                 new Thread().sleep(2000);
                 System.out.println(new Date());
