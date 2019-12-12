@@ -1,4 +1,4 @@
-# localTest
+# SpringCloudDemo
 该项目是springcloud练习项目
 eureka-server项目是注册中心
 client项目是客户端；集成mybatisplus，使用配置中心的数据库配置做数据库连接；
